@@ -1,19 +1,22 @@
-# YZ Perfumaria
+# Atelier Aline Gouveia
 
-Catálogo online de perfumaria e cosméticos, com carrinho de compras, painel administrativo e finalização de pedidos pelo WhatsApp.
+Catálogo online de um ateliê de peças artesanais, com carrinho de compras, painel administrativo e finalização de pedidos pelo WhatsApp.
 
-O projeto foi pensado para pequenos negócios que querem vender sem a complexidade de uma loja virtual completa: o proprietário gerencia os produtos pelo próprio celular e o cliente conclui o pedido em uma conversa.
+O projeto foi pensado para pequenos negócios que querem vender sem a complexidade de uma loja virtual completa: a proprietária gerencia os produtos pelo próprio celular e o cliente conclui o pedido em uma conversa.
 
-Abra o projeto no nageador
-[Prévia do site](https://yz-perfumaria.vercel.app/)
+🔗 **[Acessar o site](https://SEU-ENDERECO-AQUI)**
 
 ## Destaques
 
-- Interface elegante e responsiva, com foco em limpeza visual e bem-estar
-- Catálogo filtrável por categoria: Perfumes, Cabelos, Maquiagem e Pele
+- Interface elegante e responsiva, com visual delicado e identidade própria (logo em SVG com agulha e linha)
+- Catálogo organizado em grupos, com filtro por categoria:
+  - **Mesa:** Centro de mesa, Sousplat/Americanos e Trilhos de mesa
+  - **Casa:** Passadeiras, Jogos de banheiro e Tapetes
+  - **Moda:** Moda praia e Blusas
 - Badges de **Promoção**, **Novo** e **Mais vendido**, com preço anterior riscado nas promoções
 - Carrinho com controle de quantidade, subtotal por item e total da compra
 - Pedido enviado ao WhatsApp em mensagem organizada e pronta para atendimento
+- Botão flutuante de WhatsApp e link para o Instagram do ateliê
 - Painel administrativo com login, para cadastrar, editar e excluir produtos e imagens
 - Catálogo atualizado em tempo real, sem recarregar a página
 
@@ -33,10 +36,10 @@ Cliente ──► Site (HTML/CSS/JS) ──► Firestore (produtos, em tempo rea
                 │
                 └──► WhatsApp (pedido formatado)
 
-Administrador ──► Login (Firebase Auth) ──► Painel ──► Firestore + Cloudinary (imagens)
+Administradora ──► Login (Firebase Auth) ──► Painel ──► Firestore + Cloudinary (imagens)
 ```
 
-O site é estático e usa serviços em nuvem no lugar de um servidor próprio. A escrita no banco é restrita ao administrador por regras de segurança do Firestore.
+O site é estático e usa serviços em nuvem no lugar de um servidor próprio. A escrita no banco é restrita à administradora por regras de segurança do Firestore.
 
 ## Executando localmente
 
@@ -54,14 +57,14 @@ Para conectar ao seu próprio Firebase e Cloudinary, edite o objeto `CONFIG` no 
 ## Estrutura
 
 ```
-yz-perfumes/
+atelier-aline-gouveia/
 ├── assets/
 │   ├── css/
 │   ├── images/
 │   └── js/
 ├── index.html
 ├── .gitignore
-└── readme.md
+└── README.md
 ```
 
 ## Próximos passos
@@ -73,4 +76,4 @@ yz-perfumes/
 
 ## Autor
 
-Desenvolvido por **Alan Dias** · [LinkedIn](https://www.linkedin.com/in/alanpedrodiasdesenvolvedor/?isSelfProfile=true) · [Portfólio](https://portfolio-alan-dias-liart.vercel.app/)
+Desenvolvido por **Alan Dias** · [LinkedIn](https://www.linkedin.com/in/alanpedrodiasdesenvolvedor/) · [Portfólio](https://portfolio-alan-dias-liart.vercel.app/)
