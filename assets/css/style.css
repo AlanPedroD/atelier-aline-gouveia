@@ -67,6 +67,10 @@ footer{background:var(--ink);color:#c6d9d5;padding:44px 20px 24px}
 .fg{max-width:1200px;margin:auto;display:grid;grid-template-columns:2fr 1fr 1fr;gap:32px}
 footer h4{font-family:Marcellus,serif;color:#fff;font-weight:400;margin-bottom:8px;font-size:1.1rem}
 footer a,footer span.l{display:block;color:#c6d9d5;font-size:.9rem;text-decoration:none;margin:4px 0;cursor:pointer}
+
+footer a.ig-rodape{display:flex;align-items:center;gap:8px}
+footer a.ig-rodape svg{color:var(--gold);flex:none}
+
 .cp{max-width:1200px;margin:28px auto 0;padding-top:16px;border-top:1px solid #35524e;font-size:.8rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 .ov{position:fixed;inset:0;background:rgba(10,25,23,.5);z-index:90;display:none}
 .ov.open{display:block}
