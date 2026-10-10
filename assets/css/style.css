@@ -143,4 +143,7 @@ footer a,footer span.l{display:block;color:#c6d9d5;font-size:.9rem;text-decorati
  .badge{top:8px;left:8px;font-size:.68rem;padding:2px 8px}
 
  .logo{font-size:1.4rem}
+
+ .bar{grid-template-columns:1fr auto}
+ .assina{display:none}
 }
