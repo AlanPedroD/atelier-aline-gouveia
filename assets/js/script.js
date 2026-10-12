@@ -5,7 +5,7 @@ const CONFIG={
   projectId:"atelier-aline-gouveia",
   appId:"1:371922254378:web:708ccba2e84ea85f9be153"
  },
- cloudinary:{cloudName:"ddojjqwky",uploadPreset:"yz_perfumaria"},
+ cloudinary:{cloudName:"ddojjqwky",uploadPreset:"aline_atelier"},
  whatsapp:"5581986953009"
 };
 /* ======================================================= */
