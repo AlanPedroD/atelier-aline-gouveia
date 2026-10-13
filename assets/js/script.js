@@ -6,7 +6,7 @@ const CONFIG={
   appId:"1:371922254378:web:708ccba2e84ea85f9be153"
  },
  cloudinary:{cloudName:"ddojjqwky",uploadPreset:"aline_atelier"},
- whatsapp:"5581986953009"
+ whatsapp:"5582988329290"
 };
 /* ======================================================= */
 const DEMO=!CONFIG.firebase.apiKey;
