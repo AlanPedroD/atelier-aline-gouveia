@@ -29,6 +29,8 @@ const wl='https://wa.me/'+CONFIG.whatsapp;
 $('#wa').href=wl+'?text='+encodeURIComponent('Olá! Gostaria de mais informações.');
 const wa2=$('#wa2');if(wa2)wa2.href=wl;
 
+$('#waEncomenda').href=wl+'?text='+encodeURIComponent('Olá! Gostaria de fazer uma encomenda personalizada.');
+
 /* Dados: Firebase (ou demonstração local sem configuração) */
 async function init(){
  if(DEMO){

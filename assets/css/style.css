@@ -121,6 +121,12 @@ footer a.ig-rodape svg{color:var(--gold);flex:none}
 .zoom img{max-width:100%;max-height:88vh;object-fit:contain;border-radius:6px}
 #zoomClose{position:absolute;top:16px;right:16px;width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,.15);color:#fff;font-size:1.4rem}
 
+.encomenda{margin-top:56px;padding:40px 24px;text-align:center;background:var(--mist);border:1px solid var(--line);border-radius:8px}
+.encomenda h2{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(1.7rem,4vw,2.3rem);line-height:1.15}
+.encomenda p{color:var(--soft);margin:8px 0 20px}
+.btn-enc{display:inline-flex;align-items:center;gap:10px;background:#1f8f5a;color:#fff;padding:13px 26px;border-radius:99px;font-weight:600;text-decoration:none;transition:transform .2s}
+.btn-enc:hover{transform:translateY(-2px)}
+
 @media(max-width:760px){
  #burger{display:grid;place-items:center}
  .navwrap nav{display:none}.navwrap.open nav{display:block}
